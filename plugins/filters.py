@@ -167,7 +167,7 @@ async def cb_handler(client: Bot, query:CallbackQuery):
                 disable_web_page_preview=True
             )
 
-        elif query.data == "help_data":
+        elif query.data == "hel_data":
 
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("👑 ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴋɪɴɢ 👑", url="https://t.me/AB_Nero")]
@@ -179,7 +179,7 @@ async def cb_handler(client: Bot, query:CallbackQuery):
                 disable_web_page_preview=True
             )
 
-        elif query.data == "about_data":
+        elif query.data == "abou_data":
 
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="help_data"),
