@@ -33,7 +33,7 @@ async def start(client, message):
 @Client.on_message(filters.command(["help"]) & filters.private)
 async def help(client, message):
     try:
-        await message.reply_text(
+        await message.reply_photo(
             text=script.HELP_MSG,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
