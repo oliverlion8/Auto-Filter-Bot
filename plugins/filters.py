@@ -158,9 +158,7 @@ async def cb_handler(client: Bot, query:CallbackQuery):
         elif query.data == "start_data":
 
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")]
+                [InlineKeyboardButton("👑 ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴋɪɴɢ 👑", url="https://t.me/TroJanzHEX")]
             ])
 
             await query.message.edit_text(
