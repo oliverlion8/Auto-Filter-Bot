@@ -17,12 +17,11 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🍀 ᴊᴏɪɴ ᴏᴜʀ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🍀", url="https://t.me/hcf_chat"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "👑 ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴋɪɴɢ 👑", url="https://t.me/AB_Nero")
                     ]
                 ]
             ),
@@ -45,7 +44,7 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                            "👑 ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴋɪɴɢ 👑", url="https://t.me/TroJanzSupport")
                     ]
                 ]
             ),
