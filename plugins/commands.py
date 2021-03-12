@@ -13,7 +13,7 @@ trojanzhex_IMG = "https://telegra.ph/file/b8067073614796fc36fe3.jpg"
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client, message):
     try:
-        await message.reply_photo( trojanzhex_IMG, )
+        await message.reply_text(
             text=script.START_MSG.format(message.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
