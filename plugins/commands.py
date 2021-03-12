@@ -7,6 +7,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from script import script
 
+
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client, message):
     try:
